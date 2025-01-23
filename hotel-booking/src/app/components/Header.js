@@ -25,13 +25,13 @@ export default function Header() {
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
-                <Navbar.Link href="#" className="text-gray-500 hover:text-blue-500 hover:bg-blue-500 active:text-red-600 p-2">
+                <Navbar.Link href="/" className="text-gray-500 hover:text-blue-500 hover:bg-blue-500 active:text-red-600 p-2">
                     Home
                 </Navbar.Link>
                 <Navbar.Link href="#">Rooms</Navbar.Link>
-                <Navbar.Link href="#">Facilities</Navbar.Link>
-                <Navbar.Link href="#">Contact</Navbar.Link>
-                <Navbar.Link href="#">About</Navbar.Link>
+                <Navbar.Link href="/facilities">Facilities</Navbar.Link>
+                <Navbar.Link href="contact">Contact</Navbar.Link>
+                <Navbar.Link href="/about">About</Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
     );
